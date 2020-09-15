@@ -41,6 +41,7 @@
   padding: 10px 15px;
   cursor: pointer;
   font-size: 16px;
+  min-width: 120px;
 }
 .board__input {
   padding: 5px;

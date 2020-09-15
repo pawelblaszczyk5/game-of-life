@@ -9,23 +9,22 @@
     </div>
   </div>
   <div class="board__controls">
-    <button class="board__button" (click)="startLifeCycle()">Wystartuj grę</button>
-    <button class="board__button" (click)="stopLifeCycle()">Zatrzymaj grę</button>
-    <button class="board__button" (click)="speedUpLifeCycle()">Przyspiesz grę</button>
-    <button class="board__button" (click)="slowDownLifeCycle()">Spowolnij grę</button>
+    <button class="board__button" (click)="startLifeCycle()">Start</button>
+    <button class="board__button" (click)="stopLifeCycle()">Pause</button>
+    <button class="board__button" (click)="speedUpLifeCycle()">Speed up</button>
+    <button class="board__button" (click)="slowDownLifeCycle()">Slow down</button>
   </div>
   <div class="board__inputs">
-    Rzędy:
+    Rows:
     <input class="board__input" max="40" min="20" type="number" [value]="rows" #rowsInput>
-    Kolumny:
+    Columns:
     <input class="board__input" max="40" min="20" type="number" [value]="columns" #colsInput>
-    <button type="button" class="board__button" (click)="changeBoard(rowsInput, colsInput)">Zmień rozmiar
-      planszy</button>
+    <button type="button" class="board__button" (click)="changeBoard(rowsInput, colsInput)">Change board size</button>
   </div>
   <p class="board__text board__text--warning" *ngIf="!validInputs">
-    Liczba rzędów i kolumn musi się mieścić w zakresie 20-40
+    The number of rows and columns must be between 20 and 40
   </p>
   <p class="board__text">
-    Generacja: {{generation}}
+    Generation: {{generation}}
   </p>
 </div>
