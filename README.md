@@ -5,7 +5,7 @@ These are my first steps with Angular. I decided to create simple game of life, 
 
 [Game Of Life](https://game-of-life.pawelblaszczyk.ct8.pl/)  
 
-[![Game Of Life](https://media0.giphy.com/media/26ccrROKPk5Fayt3u1/giphy.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Game Of Life](https://media0.giphy.com/media/26ccrROKPk5Fayt3u1/giphy.gif)](https://game-of-life.pawelblaszczyk.ct8.pl/)
 
 
 ## Run it locally
